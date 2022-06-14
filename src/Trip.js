@@ -30,7 +30,7 @@ export default function Trip(){
             body: JSON.stringify(trip),
             headers:{"Content-Type": "application/json"}
         }).then(res=>res.json());
-        navigate(`/trips`);
+        navigate("/trips");
     }
 
     const handleChange = (e) => {
