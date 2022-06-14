@@ -4,7 +4,7 @@ import {Badge, Card, Pagination, Table} from 'react-bootstrap';
 
 export default function Trips(){
 
-    const [trips, setTrips] = useState([]);
+    const [trips, setTrips] = useState(null);
     const [page, setPage] = useState(1);
     const [loading, setLoading] = useState(true);
     const navigate = useNavigate();
