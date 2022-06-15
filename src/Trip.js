@@ -29,7 +29,7 @@ export default function Trip(){
             method: 'PUT',
             body: JSON.stringify(trip),
             headers:{"Content-Type": "application/json"}
-        }).then(res=>res.json()).navigate("/trips");
+        }).then(res=>res.json()).then(navigate("/trips"));
     }
 
     const handleChange = (e) => {
