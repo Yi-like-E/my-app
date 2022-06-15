@@ -29,14 +29,14 @@ export default function Trip(){
             method: 'PUT',
             body: JSON.stringify(trip),
             headers:{"Content-Type": "application/json"}
-        }).then(res=>res.json());
+        }).then(res=>res.json()).then(data => this.setTrip(data));
         navigate("/trips");
     }
 
     const handleChange = (e) => {
-        let target = e.target;
+        const target = e.target;
         let value = target.value;
-        let name = target.name;
+        const name = target.name;
         setTrip(trip =>{
             return {...trip,[name]:value};
         })
