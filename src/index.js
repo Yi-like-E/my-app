@@ -3,7 +3,7 @@
 * I declare that this assignment is my own work in accordance with Seneca Academic Policy.
 * No part of this assignment has been copied manually or electronically from any other source
 * (including web sites) or distributed to other students. *
-* Name: ____YiHsun Lee_____ Student ID: __129713202__ Date: ___2022/June/5___ *
+* Name: ____YiHsun Lee_____ Student ID: __129713202__ Date: ___2022/June/15___ *
 ********************************************************************************/
 
 import React from 'react';
