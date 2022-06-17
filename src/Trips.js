@@ -18,12 +18,6 @@ export default function Trips(){
         })
 
     },[page]);
-    // useEffect(()=>{
-    //     fetch(`https://web422a1-ylee.herokuapp.com/api/trips?page=${page}&perPage=10`).then(res=>res.json()).then(result =>{
-    //         setTrips(result);
-    //         setPage(page);
-    //     })
-    // });
 
     function previousPage(){
         if(page > 1){
